@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <h2>Blox Fruits</h2>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["Dark Fruit", "Demon Fruit", "Budda", "Love Fruit", "T-Rex", "Barriar Fruit"];
+        var text = "";
+        var i;
+        for (i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
